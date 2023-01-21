@@ -24,7 +24,7 @@
 
 [ After installation: ]
 
-	- Go to this repository location -(https://github.com/sathyarajr1991/TestVagrantAssignments.git) 
+	- Go to this repository location -(https://github.com/sathyarajr1991/TestVagrantTestAssignment.git) 
 	- Tap on Code, Download ZIP file 
 	- launch Eclipse IDE
 	- select 'File -> Import... -> Maven(Existing Maven Projects)'
