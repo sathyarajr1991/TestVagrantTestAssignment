@@ -25,7 +25,7 @@
 [ After installation: ]
 
 	- Go to this repository location -(https://github.com/sathyarajr1991/TestVagrantTestAssignment.git) 
-	- Tap on Code, Download ZIP file 
+	- Tap on Code, Download ZIP file or clone it to Local drive.
 	- launch Eclipse IDE
 	- select 'File -> Import... -> Maven(Existing Maven Projects)'
 	- select the 'pom.xml' file of this project.'
@@ -34,9 +34,10 @@
 
 [ Project layout: ]
 
-	- main() method is in class PrintTestResults.java:
-	- PrintTestResults.java has methods to print output to console
-	- JsonReader.java parses the test_suite.json file
+	- All Tests contains in this class RCBTeamResults.java:
+	- RCBTeamResults.java has methods to print output to console
+	- Logger.java contains all methods formatting in console result 
+	- JsonHelper.java parses the test_suite.json file and contains other helper methods
 	- test_suite.json file is under /src/main/resources folder
 	- the console output is available to view in 'sampleConsoleLog.txt'
 
@@ -46,6 +47,6 @@
 	- From Eclipse
 	    - Under 'Project Explorer', expand TestVagrantAssignments -> 'com.testvagrantassignment.test' package
 	    - Right click on the class RCBTeamResults.java and Run as TestNG Test
-	    - Right click on testng.xml under Project
+	    - Right click on testng.xml under Project and Run as TestNG Test
 	    
 
