@@ -29,7 +29,7 @@
 	- launch Eclipse IDE
 	- select 'File -> Import... -> Maven(Existing Maven Projects)'
 	- select the 'pom.xml' file of this project.'
-	- add TestNG to the build path by right click on @Test tag
+	- add TestNG to the build path by right click on @Test tag if Maven build is not added testNG jat file
 
 
 [ Project layout: ]
